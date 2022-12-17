@@ -1,0 +1,21 @@
+import turtle
+t = turtle.Turtle()
+s = turtle.Screen()
+
+t.speed(12)
+s.bgcolor('black')
+for i in range(180):
+    t.color('orange')
+    t.forward(100)
+    t.right(30)
+    t.color('white')
+    t.forward(20)
+    t.left(60)
+    t.color('green')
+    t.forward(50)
+    t.right(30)
+    t.penup()
+    t.setposition(0,0)
+    t.pendown()
+    t.right(2)
+turtle.down()
